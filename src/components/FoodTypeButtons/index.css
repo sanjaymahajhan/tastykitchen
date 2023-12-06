@@ -1,0 +1,24 @@
+.food_type_list_item {
+  margin-right: 20px;
+}
+
+.food_type_button_element {
+  background: transparent;
+  border-radius: 4px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f7931e;
+  border: 1px solid #f7931e;
+  cursor: pointer;
+  outline: none;
+  padding: 4px 16px 4px 16px;
+}
+
+.button_element_active {
+  background: #f7931e;
+  color: #ffffff;
+  border: none;
+}

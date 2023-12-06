@@ -1,0 +1,92 @@
+.not_found_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  height: 100vh;
+}
+
+.not_found_img {
+  width: 140px;
+  height: 155px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .not_found_img {
+    width: 269px;
+    height: 297px;
+    margin-bottom: 48px;
+  }
+}
+
+.not_found_heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .not_found_heading {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+}
+
+.not_found_para {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #475569;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .not_found_para {
+    font-size: 20px;
+    line-height: 32px;
+    width: 530px;
+  }
+}
+
+.not_found_link {
+  text-decoration: none;
+}
+
+.not_found_home_page {
+  padding: 8px 16px 8px 16px;
+  width: 98px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .not_found_home_page {
+    font-size: 14px;
+    padding: 12px 24px 12px 24px;
+    width: 123px;
+    height: 48px;
+  }
+}

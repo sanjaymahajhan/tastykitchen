@@ -1,0 +1,142 @@
+.food_item_list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .food_item_list {
+    width: 50%;
+    margin-bottom: 32px;
+  }
+}
+
+.food_item_img {
+  width: 150px;
+  height: 100px;
+  margin-right: 16px;
+  border-radius: 5px;
+  object-fit: fill;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .food_item_img {
+    width: 255px;
+    height: 150px;
+  }
+}
+
+.food_item_heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .food_item_heading {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 5px;
+  }
+}
+
+.food_item_para {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #334155;
+}
+
+@media screen and (min-width: 768px) {
+  .food_item_para {
+    font-size: 16px;
+  }
+}
+
+.food_item_description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .food_item_description {
+    font-size: 16px;
+  }
+}
+
+.food_item_cost_container {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .food_item_cost_container {
+    height: 30px;
+  }
+}
+
+.food_item_rating_container {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .food_item_rating_container {
+    height: 30px;
+  }
+}
+
+.add_button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffa412;
+  background-color: transparent;
+  border: 2px solid #ffa412;
+  border-radius: 5px;
+  padding: 2px 6px 2px 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .add_button {
+    font-size: 16px;
+    padding: 6px 10px 6px 10px;
+  }
+}
+
+.food_type_icon_img {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .food_type_icon_img {
+    width: 18px;
+    height: 18px;
+  }
+}

@@ -1,0 +1,147 @@
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8fafc;
+  height: 64px;
+  width: 100%;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_container {
+    height: 96px;
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+}
+
+.nav_logo_container {
+  display: flex;
+  align-items: center;
+}
+
+.nav_website_logo {
+  width: 34px;
+  height: 28px;
+  margin-right: 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_website_logo {
+    width: 48px;
+    height: 38px;
+    margin-right: 18px;
+  }
+}
+
+.nav_logo_heading {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f7931e;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_logo_heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.nav_link {
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_link {
+    margin-right: 32px;
+  }
+}
+
+.react_icon_button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.react_hamburger_menu_icon {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .react_hamburger_menu_icon {
+    display: none;
+  }
+}
+
+.nav_mobile_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 26px;
+  padding-right: 26px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_mobile_container {
+    display: none;
+  }
+}
+
+.nav_unOrder_list_container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list_item_heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #334155;
+}
+
+.color {
+  color: #f7931e;
+}
+
+.logout_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px 8px 16px;
+  width: 73px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.nav_tablet_container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .nav_tablet_container {
+    display: none;
+  }
+}

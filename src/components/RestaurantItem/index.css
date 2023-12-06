@@ -1,0 +1,95 @@
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.list_item {
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .list_item {
+    width: 50%;
+    padding-right: 20px;
+  }
+}
+
+.restaurant_img {
+  width: 150px;
+  height: 100px;
+  margin-right: 16px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant_img {
+    width: 160px;
+  }
+}
+
+.restaurant_heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant_heading {
+    font-size: 18px;
+  }
+}
+
+.restaurant_para {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant_para {
+    font-size: 14px;
+  }
+}
+
+.rating_container {
+  display: flex;
+  align-items: center;
+}
+
+.rating_para {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #1e293b;
+  margin-left: 4px;
+}
+
+.rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #64748b;
+  margin-left: 4px;
+}

@@ -1,0 +1,124 @@
+.cart_item_mobile_list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.cart_item_img {
+  border-radius: 8px;
+  width: 146px;
+  height: 100px;
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .cart_item_img {
+    display: none;
+  }
+}
+
+.cart_item_heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+
+.cart_item_mobile_heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+
+@media screen and (min-width: 768px) {
+  .cart_item_mobile_heading {
+    display: none;
+  }
+}
+
+.cart_item_cost_container {
+  display: flex;
+  align-items: center;
+}
+
+.cart_item_para {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffa412;
+}
+
+.cart_item_tablet_list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .cart_item_tablet_list {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.cart_item_tablet_img {
+  width: 136px;
+  height: 100px;
+  margin-right: 16px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.cart_item_tablet_list_card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 33%;
+}
+
+@media screen and (max-width: 767px) {
+  .cart_item_tablet_list_card {
+    display: none;
+  }
+}
+
+.cart_item_tablet_list_card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+@media screen and (max-width: 767px) {
+  .cart_item_tablet_list_card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    margin-top: 0px;
+    height: 30px;
+  }
+}
+
+.counter_tablet_heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-left: 10px;
+  margin-right: 10px;
+}
